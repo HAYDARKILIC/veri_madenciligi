@@ -1,7 +1,6 @@
-# 🔍 Veri Madenciliği
+# 🔍 Veri Madenciliği — Ders Notları ve Uygulamalı Notebook'lar
 
-**Yapay Zeka Mühendisliği Bölümü — Ders Notları ve Uygulamalı Notebook'lar**  
-Haydar Kılıç
+**Haydar Kılıç | Mühendislik Fakültesi, Yapay Zeka Mühendisliği**  
 
 ---
 
@@ -9,18 +8,16 @@ Haydar Kılıç
 
 Bu repository, **Veri Madenciliği** dersine ait haftalık Jupyter Notebook'larını içermektedir. Her notebook, o haftanın teorik ders sunumuna eşlik eden uygulamalı Python çalışmasıdır: slayttaki kavramlar ve sayısal örnekler aynen yeniden üretilir, ardından genelleştirilerek pekiştirilir.
 
-Hedef kitle: Yapay Zeka Mühendisliği lisans öğrencileri.
-
 ---
 
 ## 📂 İçindekiler
 
 | Ders | Konu | Notebook |
 |------|------|----------|
-| Ders 1 | Sınıflandırma: Temel Kavramlar ve Teknikler | [`Ders1/VMD_Ders1_Notebook.ipynb`](Ders1/VMD_Ders1_Notebook.ipynb) |
-| Ders 2 | *(yakında)* | — |
-| Ders 3 | *(yakında)* | — |
-| Ders 4 | *(yakında)* | — |
+| Ders 1 | Sınıflandırma: Temel Kavramlar ve Teknikler | [`Ders1/VMD_Ders1_Notebook.ipynb`]|
+| Ders 2 | Sınıflandırma: İleri Düzey Teknikler (KNN, NBC, ANN, SVM) | [`Ders2/VMD_Ders2_Notebook.ipynb`]|
+| Ders 3 | Sınıflandırma: İleri Düzey Teknikler II (ANN, SVM, Bayes Ağları, Topluluk, Dengesizlik, Metrikler) | [`Ders3/VMD_Ders3_Notebook.ipynb`] |
+| Ders 4 | Birliktelik Analizi (Apriori, FP-Growth, GSP, Örüntü Değerlendirme) | [`Ders4/VMD_Ders4_Notebook.ipynb`] |
 | Ders 5 | *(yakında)* | — |
 
 ---
@@ -45,12 +42,63 @@ Hedef kitle: Yapay Zeka Mühendisliği lisans öğrencileri.
 
 ---
 
+## 📚 Ders 2 — Sınıflandırma: İleri Düzey Teknikler
+
+### Kapsanan Konular
+
+| # | Konu | Öne Çıkan Kavramlar |
+|---|------|---------------------|
+| 1 | K-En Yakın Komşu (KNN) | Öklid mesafesi, mesafe ağırlıklı oylama, k parametresi etkisi |
+| 2 | Naif Bayes Sınıflandırıcı (NBC) | Bayes teoremi, koşullu bağımsızlık, Gaussian NBC, Laplace düzeltmesi |
+| 3 | Yapay Sinir Ağları (ANN) | Perseptron, ağırlık güncelleme, XOR problemi, vanishing gradient, ReLU |
+| 4 | Destek Vektör Makineleri (SVM) | Maksimum marj hiperdüzlemi, destek vektörler, kernel trick (RBF, Poly, Sigmoid) |
+| 5 | Algoritma Karşılaştırması | Breast Cancer & Half-Moon veri setleri üzerinde KNN / NBC / MLP / SVM karşılaştırması |
+
+---
+
+## 📚 Ders 3 — Sınıflandırma: İleri Düzey Teknikler II
+
+### Kapsanan Konular
+
+| # | Konu | Öne Çıkan Kavramlar |
+|---|------|---------------------|
+| 1 | ANN Derinlemesine | Biyolojik nöron analogisi, ileri yayılım, mini-batch gradyan inişi, geri yayılım |
+| 2 | SVM (Derinlemesine) | Dual problem, KKT koşulları, kernel trick, özellik uzayı dönüşümü φ |
+| 3 | Bayes Ağları | DAG yapısı, yerel Markov özelliği, CPT, ortak dağılım, çıkarım |
+| 4 | Topluluk Öğrenmesi | Binom hata analizi, Bias-Variance trade-off, Bagging, Random Forest, AdaBoost |
+| 5 | Sınıf Dengesizliği | Doğruluk paradoksu, undersampling, oversampling, SMOTE (sıfırdan), class weight |
+| 6 | Performans Metrikleri | Confusion matrix, Precision/Recall/F1/Fβ, ROC eğrisi, PR eğrisi, optimal karar eşiği, maliyet matrisi |
+
+
+---
+
+## 📚 Ders 4 — Birliktelik Analizi
+
+### Kapsanan Konular
+
+| # | Konu | Öne Çıkan Kavramlar |
+|---|------|---------------------|
+| 1 | Temel Kavramlar | Destek sayısı σ(X), destek s(X), güven c(X→Y), birliktelik kuralı |
+| 2 | Apriori İlkesi | Anti-monotonluk özelliği, öğe kafesi yapısı, budama stratejisi |
+| 3 | Apriori Algoritması | candidate-gen (Fₖ×Fₖ birleştirme), candidate-prune, destek sayımı (sıfırdan) |
+| 4 | Kural Üretimi | ap-genrules, güven anti-monotonluğu, Lift hesabı |
+| 5 | Kompakt Gösterim | Maksimal sık kümeler, kapalı sık kümeler, hiyerarşi |
+| 6 | FP-Growth | FP-ağacı (sıfırdan), header tablosu, koşullu FP-ağacı, aday üretmeden madencilik |
+| 7 | Örüntü Değerlendirme | Lift, PS (Piatetsky-Shapiro), φ-korelasyonu, IS (Cosine) ölçütleri |
+| 8 | Simpson Paradoksu | Gizli değişkenler, katmanlı vs birleşik analiz, HDTV örneği |
+| 9 | Kategorik & Sürekli | İkili forma dönüşüm, ayrıştırma (discretization), aralık genişliği etkisi |
+| 10 | Sekans Örüntüleri | GSP algoritması, alt-sekans testi, web ziyaret sırası örneği |
+| 11 | Seyrek & Negatif | h-güven (All-Confidence), çapraz-destek örüntüsü, rakip ürün analizi |
+
+
+---
+
 ## 🛠️ Kurulum
 
 ### 1. Repository'yi klonlayın
 
 ```bash
-git clone https://github.com/<kullanici_adi>/veri_madenciligi.git
+git clone https://github.com/HAYDARKILIC/veri_madenciligi.git
 cd veri_madenciligi
 ```
 
@@ -85,9 +133,12 @@ Tam liste için [`requirements.txt`](requirements.txt) dosyasına bakın.
 | `numpy` | Sayısal hesaplama, dizi işlemleri |
 | `pandas` | Veri çerçeveleri, tablo işlemleri |
 | `matplotlib` | Görselleştirme |
-| `scikit-learn` | Karar ağacı, metrikler, cross-validation |
-| `scipy` | İstatistiksel testler (güven aralığı) |
+| `scikit-learn` | KNN, NBC, MLP, SVM, Ensemble, metrikler, cross-validation |
+| `scipy` | İstatistiksel testler, Gaussian yoğunluk, binom katsayısı |
+| `networkx` | Bayes Ağı DAG görselleştirmesi (Ders 3, opsiyonel) |
 | `jupyter` | Notebook ortamı |
+
+> **Not:** Ders 4 (Birliktelik Analizi) yalnızca standart kütüphaneleri (`itertools`, `collections`) kullanır; ek bağımlılık gerektirmez.
 
 ---
 
@@ -102,30 +153,19 @@ veri_madenciligi/
 ├── Ders1/
 │   └── VMD_Ders1_Notebook.ipynb      ← Sınıflandırma temelleri
 │
-├── Ders2/                             ← (yakında)
-├── Ders3/                             ← (yakında)
-├── Ders4/                             ← (yakında)
+├── Ders2/
+│   └── VMD_Ders2_Notebook.ipynb      ← KNN, NBC, ANN, SVM
+│
+├── Ders3/
+│   └── VMD_Ders3_Notebook.ipynb      ← ANN derin, SVM dual, Bayes Ağları, Topluluk, SMOTE, Metrikler
+│
+├── Ders4/
+│   └── VMD_Ders4_Notebook.ipynb      ← Apriori, FP-Growth, GSP, Örüntü Değerlendirme
+│
 └── Ders5/                             ← (yakında)
 ```
 
 ---
-
-## 📝 Notebook Hakkında Notlar
-
-- Her notebook **bağımsız çalışabilir**; gerekli tüm veri setleri kod içinde oluşturulmaktadır.
-- Hücreler **sırayla** çalıştırılmalıdır; sonraki hücreler önceki hücrelerde tanımlanan değişkenlere bağımlıdır.
-- Tüm grafikler `matplotlib` ile üretilmekte, harici dosya gerektirmemektedir.
-- Notebook'lar Python **3.10+** ile test edilmiştir.
-
 ---
 
-## 📖 Kaynaklar
-
-- Tan, P.-N., Steinbach, M., & Kumar, V. (2018). *Introduction to Data Mining* (2nd ed.). Pearson.
-- [scikit-learn Karar Ağacı Dokümantasyonu](https://scikit-learn.org/stable/modules/tree.html)
-
----
-
-## 📜 Lisans
-
-Bu materyal eğitim amaçlı hazırlanmıştır. Kaynak göstererek serbestçe kullanılabilir.
+*Veri Madenciliği — Haydar Kılıç, Yapay Zeka Mühendisliği*
