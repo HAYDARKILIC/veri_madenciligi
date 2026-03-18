@@ -1,12 +1,12 @@
-# 🔍 Veri Madenciliği — Ders Notları ve Uygulamalı Notebook'lar
+# 🔍 Veri Madenciliği
 
-**Haydar Kılıç | Mühendislik Fakültesi, Yapay Zeka Mühendisliği**  
+**Haydar Kılıç | Yapay Zeka Mühendisliği**  
 
 ---
 
 ## 📖 Hakkında
 
-Bu repository, **Veri Madenciliği** dersine ait haftalık Jupyter Notebook'larını içermektedir. Her notebook, o haftanın teorik ders sunumuna eşlik eden uygulamalı Python çalışmasıdır: slayttaki kavramlar ve sayısal örnekler aynen yeniden üretilir, ardından genelleştirilerek pekiştirilir.
+Bu repository, **Veri Madenciliği** dersine ait Jupyter Notebook'larını içermektedir. Her notebook, teorik ders sunumuna eşlik eden uygulamalı Python çalışmasıdır: slayttaki kavramlar ve sayısal örnekler aynen yeniden üretilir, ardından genelleştirilerek pekiştirilir.
 
 ---
 
@@ -183,8 +183,8 @@ veri_madenciligi/
 ├── Ders5/
 │   └── VMD_Ders5_Notebook.ipynb
 ```
+## 📖 Kaynak Kitap
 
----
----
+Tan, P. N., Steinbach, M., & Kumar, V. (2016). Introduction to data mining. Pearson Education India.
 
 *Veri Madenciliği — Haydar Kılıç, Yapay Zeka Mühendisliği*
