@@ -1,12 +1,6 @@
-# 🔍 Veri Madenciliği
+# Veri Madenciliği
 
-**Haydar Kılıç | Yapay Zeka Mühendisliği**  
-
----
-
-## 📖 Hakkında
-
-Bu repository, **Veri Madenciliği** dersine ait Jupyter Notebook'larını içermektedir. Her notebook, teorik ders sunumuna eşlik eden uygulamalı Python çalışmasıdır: slayttaki kavramlar ve sayısal örnekler aynen yeniden üretilir, ardından genelleştirilerek pekiştirilir.
+Veri madenciliği dünyasına teorik ve pratik bir depo, temel sınıflandırma teorilerinden başlayarak ileri seviye ansambl (topluluk) modellerine, örüntü keşiflerinden gözetimsiz yapısal analizlere kadar uzanan kapsamlı bir **Veri Madenciliği (Data Mining)** müfredatını içerir. Her bir notebook, algoritmaların arkasındaki matematiksel ve mantıksal yapıyı açıklarken, aynı zamanda temiz kod mimarisiyle pratik uygulamalarını sunar.
 
 ---
 
